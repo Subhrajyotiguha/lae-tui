@@ -34,10 +34,10 @@ LAE prioritizes audio fidelity by establishing a direct hardware connection when
 | :--- | :--- |
 | `Space` | Play / Pause |
 | `Enter` | Play selected track |
-| `Right / f` | Seek forward 5 seconds |
-| `Left / b` | Seek backward 5 seconds |
-| `Up / Down` | Navigate tracks / Scroll lyrics manually |
-| `+ / =` | Increase Volume |
+| `Right-arrow` | Seek forward 5 seconds |
+| `Left-arrow` | Seek backward 5 seconds |
+| `Up / Down / mouse'| Navigate tracks / Scroll lyrics manually |
+| `+ ` | Increase Volume |
 | `-` | Decrease Volume |
 | `q` | Quit application |
 
@@ -45,7 +45,7 @@ LAE prioritizes audio fidelity by establishing a direct hardware connection when
 | Key | Action |
 | :--- | :--- |
 | `f` | Open Directory Browser (Appends folders dynamically) |
-| `S` | Open Search Overlay |
+| `shift+S` | Open Search Overlay |
 | `Esc` | Open Sort Menu / Close current overlay |
 | `s` | Toggle Shuffle Mode |
 | `r` | Toggle Repeat Mode |
