@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=LAE Player
+Exec=lae-tui
+Icon=lae-tui
+Type=Application
+Categories=AudioVideo;Audio;Player;
+Terminal=true
+Comment=Lossless Audio Engine - Bit-Perfect TUI
