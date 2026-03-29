@@ -1,2 +1,14 @@
+# Build artifacts
 target/
-*.so
+
+# AppImage bloat
+AppDir/
+appimagetool
+*.AppImage
+
+# Lock files (Common for binary-only apps to ignore these in the repo)
+Cargo.lock
+
+# System files
+.DS_Store
+Thumbs.db
