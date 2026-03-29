@@ -1,5 +1,8 @@
 # LAE (Lossless Audio Engine) - TUI
 
+![License](https://img.shields.io/github/license/Subhrajyotiguha/lae-tui?color=FCBF49&style=flat-square)
+![Latest Release](https://img.shields.io/github/v/release/Subhrajyotiguha/lae-tui?color=FCBF49&style=flat-square)
+![Top Language](https://img.shields.io/github/languages/top/Subhrajyotiguha/lae-tui?color=FCBF49&style=flat-square)
 ## Previw
 
 <p align="center">
