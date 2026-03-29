@@ -65,6 +65,6 @@ Ensure you have standard Linux build tools, the Rust toolchain, and ALSA develop
 Clone the repository and build the release binary:
 
 ```bash
-git clone [https://github.com/Subhrajyotiguha/lae-tui.git](https://github.com/Subhrajyotiguha/lae-tui.git)
+git clone https://github.com/Subhrajyotiguha/lae-tui.git
 cd lae-tui
 cargo build --release
