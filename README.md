@@ -27,6 +27,10 @@ LAE prioritizes audio fidelity by establishing a direct hardware connection when
 * **In-Terminal Album Art:** Extracts base64 picture data from FLAC headers and renders it directly in GPU-accelerated terminal emulators.
 * **Zero-Dependency Playback:** Operates entirely locally once lyrics are cached.
 
+## NOTE:-
+**this player currently only supports WezTerm and other gpu-accelarated terminals (like Alacritty, kitty, Ghostty) dont work**
+**this player runs fine on default terminals (Gnome Terminal and Konsole ) but as they are not gpu-accelarated it won't show the album art**
+
 ## Keybindings
 
 ### Global Controls
@@ -36,7 +40,7 @@ LAE prioritizes audio fidelity by establishing a direct hardware connection when
 | `Enter` | Play selected track |
 | `Right-arrow` | Seek forward 5 seconds |
 | `Left-arrow` | Seek backward 5 seconds |
-| `Up / Down / mouse'| Navigate tracks / Scroll lyrics manually |
+| `up / down / mouse` | Navigate tracks  |
 | `+ ` | Increase Volume |
 | `-` | Decrease Volume |
 | `q` | Quit application |
@@ -56,7 +60,6 @@ LAE prioritizes audio fidelity by establishing a direct hardware connection when
 ### Dependencies
 Ensure you have standard Linux build tools, the Rust toolchain, and ALSA development headers installed.
 * Ubuntu/Debian: `sudo apt install build-essential libasound2-dev`
-* Arch Linux: `sudo pacman -S base-devel alsa-lib`
 
 ### Compilation
 Clone the repository and build the release binary:
